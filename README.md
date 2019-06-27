@@ -30,4 +30,6 @@ Source: [w3.org](https://www.w3.org/TR/2019/NOTE-wai-aria-practices-1.1-20190207
 
 Component has been tested on:
 
-* [MacOS VoiceOver in Safari](https://www.youtube.com/watch?v=5R-6WvAihms)
+* VoiceOver in Safari/Chrome on MacOS.
+* [NVDA](https://www.nvaccess.org/) on Windows 8.
+* [JAWS](http://www.freedomscientific.com/Products/software/JAWS/) on Windows 8.
