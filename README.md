@@ -1,6 +1,6 @@
 # Accordion
 
-* An expandable and accessible block with a custom title and content.
+* An expandable and accessible accordion with a custom title and content.
 * Keyboard can be used to navigate the items.
 * `accordion-list` and `accordion-item` are a [Vuejs](https://vuejs.org/) component.
 * Serves a static page generated with [Nuxtjs](https://nuxtjs.org/).
