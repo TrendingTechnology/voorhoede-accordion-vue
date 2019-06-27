@@ -6,7 +6,7 @@
         type="button"
         class="accordion-item__button"
         :class="{ 'is-open': open }"
-        :aria-expanded="open"
+        :aria-expanded="`${open}`"
         :aria-controls="`toggle-${index}`"
         :ref="`button-${titleSlug}`"
         @click="onButtonClick">
