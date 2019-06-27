@@ -43,17 +43,17 @@
       }
     },
     methods: {
-      onFocusPrevious(index) {
-        if (index !== 0) {
-          this.focusIndex = index - 1
+      onFocusPrevious(indexAccordionItem) {
+        if (indexAccordionItem !== 0) {
+          this.focusIndex = indexAccordionItem - 1
         } else {
           this.focusIndex = this.numberOfAccordionItems
         }
       },
 
-      onFocusNext(index) {
-        if (index !== this.numberOfAccordionItems) {
-          this.focusIndex = index + 1
+      onFocusNext(indexAccordionItem) {
+        if (indexAccordionItem !== this.numberOfAccordionItems) {
+          this.focusIndex = indexAccordionItem + 1
           return
         }
         this.focusIndex = 0
