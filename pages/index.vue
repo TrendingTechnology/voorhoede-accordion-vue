@@ -16,8 +16,7 @@
       return {
         accordionData: [
           {
-            showPaperCutRight: true,
-            title: "Accordion (opens by default multiple)",
+            title: "Accordion 1",
             sections: [
               {
                 slug: "et-hi-quidem-ita-non-sola-virtute-finem",
@@ -40,9 +39,7 @@
             ]
           },
           {
-            showPaperCutRight: true,
-            allowOne: true,
-            title: "Accordion with the option to only open one",
+            title: "Accordion 2",
             sections: [
               {
                 slug: "platonis-illi-et-deinceps-qui-eorum-auditores-fuerunt",
