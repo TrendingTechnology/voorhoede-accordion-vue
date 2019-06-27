@@ -1,0 +1,15 @@
+{
+  "name": "voorhoede-components-accordion-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^2.8.1"
+  }
+}
