@@ -1,8 +1,7 @@
 {
   "name": "voorhoede-components-accordion-vue",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Accessible Vuejs accordion",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate"
