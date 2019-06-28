@@ -7,7 +7,7 @@
         class="accordion-item__button"
         :class="{ 'is-open': open }"
         :aria-expanded="`${open}`"
-        :aria-controls="`toggle-${index}`"
+        :aria-controls="titleSlug"
         :ref="`button-${titleSlug}`"
         @click="onButtonClick">
           {{ title }}
@@ -17,7 +17,7 @@
       v-show="open"
       class="accordion-item__body"
       :class="{ 'is-open': open }"
-      :id="`toggle-${index}`"
+      :id="titleSlug"
       v-html="body">  
     </div>
   </div>
