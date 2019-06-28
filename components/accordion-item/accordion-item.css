@@ -6,6 +6,10 @@
 	border-top: none;
 }
 
+.accordion-item__title {
+  margin: 0;
+}
+
 .accordion-item__button {
   position: relative;
   display: block;
