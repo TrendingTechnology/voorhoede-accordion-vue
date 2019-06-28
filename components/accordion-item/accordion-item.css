@@ -2,10 +2,6 @@
 	border-top: 1px solid #f0f0f0;
 }
 
-.accordion-item__title {
-  margin: 0;
-}
-
 .accordion-item:first-of-type {
 	border-top: none;
 }

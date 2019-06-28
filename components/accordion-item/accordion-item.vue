@@ -1,7 +1,7 @@
 <template>
   <div class="accordion-item" @keydown.up.down.35.36.9="onKeyDown">
     <a :name="titleSlug"></a>
-    <h3 class="accordion-item__title">
+    <h3>
       <button 
         type="button"
         class="accordion-item__button"

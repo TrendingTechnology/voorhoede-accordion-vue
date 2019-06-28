@@ -72,3 +72,9 @@
     }
   }
 </script>
+
+<style>
+  .accordion-list {
+    margin-bottom: 64px;
+  }
+</style>
