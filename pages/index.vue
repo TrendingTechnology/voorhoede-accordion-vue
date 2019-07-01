@@ -16,7 +16,6 @@
       return {
         accordionData: [
           {
-            title: "Accordion 1",
             sections: [
               {
                 slug: "et-hi-quidem-ita-non-sola-virtute-finem",
@@ -39,7 +38,6 @@
             ]
           },
           {
-            title: "Accordion 2",
             sections: [
               {
                 slug: "platonis-illi-et-deinceps-qui-eorum-auditores-fuerunt",
